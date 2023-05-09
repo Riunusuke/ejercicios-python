@@ -37,6 +37,16 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
+Y para ejecutarlo con docker
+
+```sh
+cd app
+sudo docker-compose build 
+sudo docker-compose up -d 
+sudo docker-compose exec app-csv bash 
+python main.py
+```
+
 ### web-server
 Ejemplo para traer datos de una API de platzi y creando una propia con FastAPI, para iniciar
 
