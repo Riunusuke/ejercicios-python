@@ -36,3 +36,18 @@ source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+
+### web-server
+Ejemplo para traer datos de una API de platzi y creando una propia con FastAPI, para iniciar
+
+```sh
+cd web-server
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
+
+En el link `http://127.0.0.1:8000/` se puede consultar nuestra API, que regresar algunas lista y en `http://127.0.0.1:8000/pagina` retorna un HTML sencillo.
+
+
